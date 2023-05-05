@@ -1,38 +1,100 @@
-@font-face { font-family: TypographerSubwayBlack; src: url('./fonts/TypographerSubway-Black.ttf') }
-
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  background-color: #FFF8E4;
+  border: none;
+}
+button {
+  cursor: pointer;
 }
 
-.container {
-  position: relative;
-  background-color: #FFF2CF;
-  padding-top: 50px;
-}
-
-.header {
-  font-family: TypographerSubwayBlack;
-  font-size: 1.5em;
-  position: fixed;
-  width: 100%;
-  height: 50px;
-  top: 0;
-  border-bottom: solid black 1px;
-  background-color: white;
+.nav-bar {
   display: flex;
+  justify-content: flex-end;
+  gap: 1.5rem;
+}
+
+
+.landing {
+  height: 85vh;
+  display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
-  gap: 5px;
+}
+.hero-logo {
+  width: 300px;
+  height: 300px;
+  border: solid black 1px;
+}
+.hero-main {
+
+}
+.hero-sub {
+
+}
+.hero-cta {
+  
 }
 
-.menu-item {
+.about {
+  height: 50vh;
   display: flex;
-  background-color: white;
-  border: solid black 1px;
-  margin: 5px 10px;
-  padding: 10px;
+  flex-direction: column;
+  justify-content: center;
   align-items: center;
-  gap: 20px;
+}
+.about-main {
+
+}
+.about-sub {
+  text-align: center;
+}
+
+
+.menu {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.menu-main {
+  
+}
+.menu-content {
+  display: grid;
+  padding: 0 2rem 2rem 2rem;
+  gap: 1.5rem;
+  width: 100%;
+  height: 100%;
+  grid-auto-flow: column;
+}
+.menu-section {
+  border: black solid 1px;
+}
+.appetizers {
+  grid-row: span 2;
+}
+.soups {
+  
+}
+.fried-rice {
+  grid-row: span 3;
+}
+.beverages {
+  grid-row: span 2;
+}
+.platters {
+  grid-row: span 5;
+}
+.special-dishes {
+  grid-row: span 3;
+}
+.combinations {
+  grid-row: span 8;
+}
+
+.gallary {
+  height: 50vh;
 }
