@@ -4,6 +4,8 @@
   box-sizing: border-box;
   background-color: #FFF8E4;
   border: none;
+  font-family: 'Martel Sans', sans-serif;
+  font-size: 16px;
 }
 button {
   cursor: pointer;
@@ -12,24 +14,25 @@ button {
 .nav-bar {
   display: flex;
   justify-content: flex-end;
-  gap: 1.5rem;
+  gap: 2rem;
+  margin-right: 1%;
 }
 
-
 .landing {
-  height: 85vh;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  margin: 10% 0% 10% 0%;
 }
 .hero-logo {
-  width: 300px;
-  height: 300px;
+  width: 500px;
+  height: 500px;
   border: solid black 1px;
 }
 .hero-main {
-
+  font-weight: bold;
+  font-size: 1.5rem;
 }
 .hero-sub {
 
@@ -39,11 +42,11 @@ button {
 }
 
 .about {
-  height: 50vh;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  margin: 15%;
 }
 .about-main {
 
@@ -97,4 +100,17 @@ button {
 
 .gallary {
   height: 50vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.gallary-preview {
+  display: flex;
+  gap: 1.5rem;
+}
+.gallary-photo {
+  width: 250px;
+  height: 250px;
+  border: solid black 1px;
 }
