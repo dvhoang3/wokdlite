@@ -4,18 +4,30 @@
   box-sizing: border-box;
   background-color: #FFF8E4;
   border: none;
-  font-family: 'Martel Sans', sans-serif;
+  font-family: 'Inter', sans-serif;
   font-size: 16px;
+  color: #2e2e2e;
 }
 button {
   cursor: pointer;
+}
+hr {
+  border: 0;
+  clear: both;
+  display: block;
+  width: 80%;
+  background-color: #616161;
+  height: 1px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .nav-bar {
   display: flex;
   justify-content: flex-end;
   gap: 2rem;
-  margin-right: 1%;
+  margin-top: 1rem;
+  margin-right: 1rem;
 }
 
 .landing {
@@ -31,14 +43,14 @@ button {
   border: solid black 1px;
 }
 .hero-main {
-  font-weight: bold;
-  font-size: 1.5rem;
+  font-size: 2.5rem;
 }
 .hero-sub {
-
+  margin-bottom: 0.7rem;
 }
 .hero-cta {
-  
+  background-color: #DADADA;
+  padding: 0.5rem;
 }
 
 .about {
@@ -46,13 +58,16 @@ button {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  margin: 15%;
+  margin: 10% 15%;
 }
 .about-main {
-
+  font-size: 1.3rem;
+  margin-bottom: 0.3rem;
 }
 .about-sub {
   text-align: center;
+  font-size: 1.1rem;
+  max-width: 900px;
 }
 
 
@@ -61,9 +76,11 @@ button {
   display: flex;
   flex-direction: column;
   align-items: center;
+  margin: 8% 0%;
 }
 .menu-main {
-  
+  font-size: 1.3rem;
+  margin-bottom: 0.5rem;
 }
 .menu-content {
   display: grid;
@@ -72,9 +89,10 @@ button {
   width: 100%;
   height: 100%;
   grid-auto-flow: column;
+  width: 1250px;
 }
 .menu-section {
-  border: black solid 1px;
+  border: #272727 solid 1px;
 }
 .appetizers {
   grid-row: span 2;
@@ -99,11 +117,15 @@ button {
 }
 
 .gallary {
-  height: 50vh;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  margin: 5%;
+}
+.gallary-main {
+  font-size: 1.3rem;
+  margin-bottom: 0.3rem;
 }
 .gallary-preview {
   display: flex;
@@ -113,4 +135,13 @@ button {
   width: 250px;
   height: 250px;
   border: solid black 1px;
+}
+.gallary-full-link {
+  margin-top: 0.3rem;
+}
+
+.contact {
+  margin-top: 0.5rem;
+  margin-bottom: 0.3rem;
+  text-align: center;
 }
