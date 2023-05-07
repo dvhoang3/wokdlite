@@ -90,6 +90,9 @@ hr {
 }
 .menu-main {
   font-size: 2rem;
+}
+.menu-description {
+  font-size: 0.7rem;
   margin-bottom: 0.5rem;
 }
 .menu-content {
@@ -159,22 +162,25 @@ hr {
   grid-row: span 2;
 }
 .soups {
-  
+  grid-row: span 1;
 }
 .fried-rice {
-  grid-row: span 3;
-}
-.beverages {
   grid-row: span 2;
 }
-.platters {
-  grid-row: span 5;
+.beverages {
+  grid-row: span 1;
 }
-.special-dishes {
+.platters {
   grid-row: span 3;
 }
+.special-dishes {
+  grid-row: span 2;
+}
+.extras {
+  grid-row: span 1;
+}
 .combinations {
-  grid-row: span 8;
+  grid-row: span 6;
 }
 
 .gallary {

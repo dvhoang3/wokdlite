@@ -157,24 +157,6 @@
       "prices": [
         "1.69"
       ]
-    },
-    {
-      "name": "Bottled Water",
-      "prices": [
-        "1.79"
-      ]
-    },
-    {
-      "name": "Bottled Soda",
-      "prices": [
-        "2.19"
-      ]
-    },
-    {
-      "name": "Monster",
-      "prices": [
-        "2.59"
-      ]
     }
   ],
   "platters": [
@@ -274,6 +256,13 @@
       "prices": [
         "9.49",
         "11.99"
+      ]
+    },
+    {
+      "name": "Vegetarian D'Lite",
+      "prices": [
+        "8.89",
+        "10.99"
       ]
     }
   ],
@@ -428,6 +417,26 @@
       "name": "Broccoli Chicken \n+ Sweet & Sour Chicken",
       "prices": [
         "10.19"
+      ]
+    }
+  ],
+  "extras": [
+    {
+      "name": "Extra Vegetables",
+      "prices": [
+        "2.49"
+      ]
+    },
+    {
+      "name": "Extra Chicken / Pork / Beef",
+      "prices": [
+        "3.49"
+      ]
+    },
+    {
+      "name": "Extra Shrimp",
+      "prices": [
+        "4.49"
       ]
     }
   ]

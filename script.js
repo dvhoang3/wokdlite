@@ -5,6 +5,7 @@ const beveragesElement = document.querySelector(".beverages > .menu-item-list");
 const plattersElement = document.querySelector(".platters > .menu-item-list");
 const specialdishesElement = document.querySelector(".special-dishes > .menu-item-list");
 const combinationsElement = document.querySelector(".combinations > .menu-item-list");
+const extrasElement = document.querySelector(".extras > .menu-item-list");
 
 // Mocking Database Calls
 fetchData();
@@ -17,6 +18,7 @@ async function fetchData() {
   createMenuItems(data.platters, plattersElement);
   createMenuItems(data.specialdish, specialdishesElement);
   createMenuItems(data.combinations, combinationsElement);
+  createMenuItems(data.extras, extrasElement);
 }
 
 function createMenuItems(items, container) {
