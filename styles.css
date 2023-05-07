@@ -37,10 +37,6 @@ hr {
   padding: 0.8rem;
   font-size: 1rem;
 }
-.nav-button:hover {
-  color: #FF6F6F;
-  opacity: 0.8;
-}
 
 .landing {
   display: flex;
@@ -87,14 +83,13 @@ hr {
 
 
 .menu {
-  height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
   margin: 8% 0%;
 }
 .menu-main {
-  font-size: 1.3rem;
+  font-size: 2rem;
   margin-bottom: 0.5rem;
 }
 .menu-content {
@@ -104,10 +99,61 @@ hr {
   width: 100%;
   height: 100%;
   grid-auto-flow: column;
+  grid-template-columns: 1fr 1fr 1fr;
   width: 1250px;
 }
 .menu-section {
   border: #272727 solid 1px;
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.menu-section-title {
+  font-size: 1.3rem;
+}
+.menu-section-description {
+  font-size: 0.8rem;
+  margin-bottom: 0.5rem;
+}
+.menu-item-size-labels {
+  align-self: flex-end;
+  display: grid;
+  grid-template-columns: auto auto;
+  margin-bottom: 0.3rem;
+}
+.menu-item-size-label {
+  width: 70px;
+  font-size: 0.9rem;
+  text-align: right;
+}
+.menu-item-list {
+  margin-bottom: 3%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 0.3rem;
+}
+.menu-item {
+  font-size: 0.9rem;
+  display: flex;
+  justify-content: space-between;
+}
+.menu-item-name {
+}
+.menu-item-price-list {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  direction: ltr;
+  align-content: center;
+}
+.menu-item-price {
+  direction: ltr;
+}
+.menu-item-price {
+  width: 70px;
+  text-align: right;
 }
 .appetizers {
   grid-row: span 2;
@@ -188,7 +234,7 @@ hr {
     height: auto;
   }
   .menu-content {
-    width: 700px;
+    width: 600px;
     display: flex;
     flex-direction: column;
   }
@@ -241,7 +287,11 @@ hr {
   }
 
   .menu-content {
-    width: 300px;
+    width: 320px;
+  }
+  .appetizers .menu-item-price-list {
+    grid-template-columns: 1fr;
+    grid-template-rows: auto;
   }
   .gallary-photo {
     width: 250px;
