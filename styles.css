@@ -4,6 +4,13 @@
   box-sizing: border-box;
   border: none;
 }
+a {
+  text-decoration: none;
+  cursor: pointer;
+}
+a:visited {
+  color: inherit;
+}
 button {
   background-color: transparent;
   cursor: pointer;
@@ -52,6 +59,8 @@ hr {
 .hero-sub {
   margin-top: 0.7rem;
   margin-bottom: 0.7rem;
+  font-size: 1.5rem;
+  font-family: 'Alex Brush', 'Inter', sans-serif;
 }
 .hero-cta {
   border: 0.15rem solid #FF6F6F;
@@ -213,10 +222,12 @@ hr {
 }
 .gallary-full-link {
   margin-top: 0.3rem;
+  border-bottom: 1px solid black;
 }
 .gallary-full-link:hover {
   cursor: pointer;
   color: #FF6F6F;
+  border-bottom: 1px solid #FF6F6F;
 }
 
 .contact {
@@ -240,7 +251,7 @@ hr {
     height: auto;
   }
   .menu-content {
-    width: 600px;
+    width: max(420px, min(80%, 630px));
     display: flex;
     flex-direction: column;
   }
@@ -263,9 +274,9 @@ hr {
     width: 300px;
     height: 300px;
   }
-  .menu-content {
+  /* .menu-content {
     width: 420px;
-  }
+  } */
   .gallary-preview {
     display: flex;
     gap: 0;

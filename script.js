@@ -45,3 +45,22 @@ function createMenuItems(items, container) {
     container.append(menuItemElement);
   }
 }
+
+const aboutDiv = document.querySelector(".about");
+const menuDiv = document.querySelector(".menu");
+const gallaryDiv = document.querySelector(".gallary");
+const aboutNav = document.querySelector(".about-nav");
+const menuNav = document.querySelector(".menu-nav");
+const gallaryNav = document.querySelector(".gallary-nav");
+aboutNav.addEventListener("click", () => aboutDiv.scrollIntoView({
+  behavior: "smooth",
+  block: "center"
+}))
+menuNav.addEventListener("click", () => menuDiv.scrollIntoView({
+  behavior: "smooth",
+  block: "start"
+}))
+gallaryNav.addEventListener("click", () => gallaryDiv.scrollIntoView({
+  behavior: "smooth",
+  block: "start"
+}))
