@@ -1,4 +1,4 @@
-{
+const data = {
   "appetizers": [
     {
       "name": "Egg Rolls",
@@ -441,3 +441,5 @@
     }
   ]
 }
+
+export default data;

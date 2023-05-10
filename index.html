@@ -11,23 +11,28 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Alex+Brush&family=Inter&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="styles.css">
-  <script src="script.js" defer></script>
-  <title>Document</title>
+  <script type="module" src="menu.js"></script>
+  <script type="module" src="script.js" defer></script>
+  <title>Wok D'Lite</title>
 </head>
 <body class="container">
   <div class="nav-bar">
     <button class="nav-button about-nav">About</button>
     <button class="nav-button menu-nav">Menu</button>
-    <button class="nav-button gallary-nav">Gallery</button>
-    <button class="nav-button contact-nav">Contact</button>
+    <button class="nav-button gallary-nav">Photos</button>
+    <button class="nav-button contact-nav">
+      <a href="tel:2814856371">Contact</a>
+    </button>
   </div>
 
   <div class="landing">
     <div class="hero-logo">
-      <object data="logo.svg" width="100%" height="100%"> </object>
+      <object data="./assets/logo.svg" width="100%" height="100%"> </object>
     </div>
     <div class="hero-sub">Chinese Cafe</div>
-    <button class="hero-cta">Order Now</button>
+    <div class="location-info">3016 East Broadway Pearland, TX 77581</div>
+    <div class="tele-info">(281) 485-6371</div>
+    <a class="hero-cta" href="https://order.mealkeyway.com/customer/release/index?mid=622b4a584a334d574e526a694545394347464b3262673d3d#/main">Order Now</a>
   </div>
 
   <hr>
@@ -120,7 +125,7 @@
       <div class="gallary-photo"></div>
       <div class="gallary-photo"></div>
     </div>
-    <div class="gallary-full-link">All Photos</div>
+    <a class="gallary-full-link" href="./gallery.html">All Photo</a>
   </div>
 
   <hr>
