@@ -160,8 +160,6 @@ hr {
   display: flex;
   justify-content: space-between;
 }
-.menu-item-name {
-}
 .menu-item-price-list {
   display: grid;
   grid-template-columns: auto auto auto;
@@ -282,9 +280,6 @@ hr {
     width: 300px;
     height: 300px;
   }
-  /* .menu-content {
-    width: 420px;
-  } */
   .gallary-preview {
     display: flex;
     gap: 0;
